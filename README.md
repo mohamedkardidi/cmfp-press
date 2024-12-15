@@ -1,7 +1,3 @@
-Here’s a **shorter version** of the `README.md` that keeps all the important details but is concise:
-
----
-
 # CMFP-Press
 
 CMFP-Press is a **CRUD application** built with **React.js** and **Redux** for state management. It uses **JSON Server** to mock a REST API for managing press content.

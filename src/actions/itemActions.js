@@ -1,13 +1,12 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
-// Define the asyncThunk to fetch items from the API
 export const fetchData = createAsyncThunk('items/fetchData', async () => {
   const response = await axios.get('/api/items');
-  return response.data; // Fetched items
+  return response.data; 
 });
 
-// Define the slice to manage items
+
 const itemSlice = createSlice({
   name: 'items',
   initialState: {
@@ -17,30 +16,30 @@ const itemSlice = createSlice({
   },
   reducers: {
     addItem: (state, action) => {
-      state.items.push(action.payload); // Adds new item to the list
+      state.items.push(action.payload); 
     },
     deleteItem: (state, action) => {
-      state.items = state.items.filter(item => item.id !== action.payload); // Deletes item by ID
+      state.items = state.items.filter(item => item.id !== action.payload); 
     },
     updateItem: (state, action) => {
       const index = state.items.findIndex(item => item.id === action.payload.id);
       if (index >= 0) {
-        state.items[index] = action.payload; // Updates the existing item
+        state.items[index] = action.payload; 
       }
     },
   },
   extraReducers: (builder) => {
     builder
       .addCase(fetchData.pending, (state) => {
-        state.loading = true; // Loading state
+        state.loading = true; 
       })
       .addCase(fetchData.fulfilled, (state, action) => {
-        state.loading = false; // Reset loading state
-        state.items = action.payload; // Store fetched items
+        state.loading = false; 
+        state.items = action.payload; 
       })
       .addCase(fetchData.rejected, (state, action) => {
-        state.loading = false; // Reset loading state on failure
-        state.error = action.error.message; // Store error message
+        state.loading = false; 
+        state.error = action.error.message; 
       });
   },
 });

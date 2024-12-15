@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { updateItem } from '../actions/itemActions'; // Correct import
+import { updateItem } from '../actions/itemActions';
 import { useNavigate, useParams } from 'react-router-dom';
 
 const EditItemForm = () => {
@@ -18,13 +18,13 @@ const EditItemForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     const updatedItem = { id: parseInt(id), title, description, image };
-    dispatch(updateItem(updatedItem)); // Dispatch update action
-    navigate('/'); // Use navigate instead of history.push
+    dispatch(updateItem(updatedItem));
+    navigate('/');
   };
 
   useEffect(() => {
     if (!item) {
-      navigate('/'); // Use navigate instead of history.push
+      navigate('/');
     }
   }, [item, navigate]);
 

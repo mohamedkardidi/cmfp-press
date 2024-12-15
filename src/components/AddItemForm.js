@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
-import axios from 'axios'; // Import axios
-import { addItem } from '../actions/itemActions'; // Correct import
+import axios from 'axios';
+import { addItem } from '../actions/itemActions';
 import './AddItemForm.css';
 
 const AddItemForm = () => {
