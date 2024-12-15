@@ -1,0 +1,76 @@
+{
+  "local-news": [
+    {
+      "id": 1734280276037,
+      "title": "Technology Innovation Boosts Renewable Energy",
+      "content": "Morocco's renewable energy sector continues to innovate, promoting sustainability across the nation.",
+      "urlToImage": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0",
+      "author": "John Doe",
+      "publishedAt": "2024-12-09"
+    },
+    {
+      "id": 1734280276038,
+      "title": "New Infrastructure Project to Improve Transportation",
+      "content": "A new infrastructure project aims to improve the transportation network in urban and rural regions.",
+      "urlToImage": "https://images.unsplash.com/photo-1541888946425-d81bb19240f9",
+      "author": "Jane Smith",
+      "publishedAt": "2024-12-08"
+    },
+    {
+      "id": 1734280276039,
+      "title": "Education Reform: Enhancing Future Generations",
+      "content": "Recent education reforms aim to provide better opportunities for students and educators.",
+      "urlToImage": "https://images.unsplash.com/photo-1529070538774-1843cb3265df",
+      "author": "Ali Khan",
+      "publishedAt": "2024-12-07"
+    },
+    {
+      "id": 1734280276040,
+      "title": "Advancements in Artificial Intelligence Technologies",
+      "content": "AI technologies are transforming various industries, offering innovative solutions.",
+      "urlToImage": "https://images.unsplash.com/photo-1566023997971-26c19eb2e10d",
+      "author": "Sara Lee",
+      "publishedAt": "2024-12-06"
+    },
+    {
+      "id": 1734280276041,
+      "title": "Environmental Conservation Efforts Increase in 2024",
+      "content": "Morocco enhances its environmental protection strategies to tackle climate change.",
+      "urlToImage": "https://images.unsplash.com/photo-1495745966610-1e78566f1149",
+      "author": "Maria Green",
+      "publishedAt": "2024-12-05"
+    },
+    {
+      "id": 1734280276042,
+      "title": "Global Trade Partnerships Strengthened",
+      "content": "Morocco strengthens its global trade ties with new partnerships across continents.",
+      "urlToImage": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7",
+      "author": "David Clark",
+      "publishedAt": "2024-12-04"
+    },
+    {
+      "id": 1734280276043,
+      "title": "Health Initiatives to Improve Public Well-being",
+      "content": "The government introduces initiatives to improve healthcare access in rural areas.",
+      "urlToImage": "https://images.unsplash.com/photo-1603398938378-8c41df96d3d5",
+      "author": "Emily White",
+      "publishedAt": "2024-12-03"
+    },
+    {
+      "id": 1734280276044,
+      "title": "Agriculture Sector Sees a Technological Revolution",
+      "content": "Technological advancements are helping farmers optimize their production and sustainability.",
+      "urlToImage": "https://images.unsplash.com/photo-1544984246-2e839d986486",
+      "author": "Ahmed Nour",
+      "publishedAt": "2024-12-02"
+    },
+    {
+      "id": 1734280276045,
+      "title": "Cultural Festivals Return with Vibrant Celebrations",
+      "content": "Morocco's cultural festivals bring communities together with music, arts, and food.",
+      "urlToImage": "https://images.unsplash.com/photo-1575936123452-b67c3203c357",
+      "author": "Fatima Zahra",
+      "publishedAt": "2024-12-01"
+    }
+  ]
+}

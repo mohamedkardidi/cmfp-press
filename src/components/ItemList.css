@@ -1,0 +1,110 @@
+/* ItemList.css */
+
+/* Container for the blog/news section */
+.blog-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  /* Blog title */
+  .blog-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Grid layout for articles */
+  .blog-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Individual blog card styling */
+  .blog-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .blog-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Blog image */
+  .blog-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  /* Metadata (date and source) */
+  .blog-meta {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    font-size: 0.9rem;
+    color: #777;
+    border-bottom: 1px solid #eee;
+  }
+  
+  /* Blog title */
+  .blog-post-title {
+    font-size: 1.2rem;
+    margin: 15px;
+    color: #333;
+  }
+  
+  .blog-post-title a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .blog-post-title a:hover {
+    color: #007BFF;
+  }
+  
+  /* Blog description */
+  .blog-description {
+    padding: 0 15px 15px;
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  /* Pagination Buttons */
+  .pagination-button {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    color: #333;
+    padding: 8px 12px;
+    margin: 0 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .pagination-button:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  /* Active Page Button */
+  .pagination-button.active {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+    font-weight: bold;
+  }
